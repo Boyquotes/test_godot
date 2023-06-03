@@ -1,0 +1,31 @@
+[gd_scene load_steps=3 format=3 uid="uid://c60xnqmgw5qo1"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_twffa"]
+[ext_resource type="PackedScene" uid="uid://b7ld5xlt1e2nk" path="res://test.tscn" id="2_f85ww"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_twffa")
+test_scene = ExtResource("2_f85ww")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_top = 7.0
+offset_right = 1028.0
+offset_bottom = 621.0
+color = Color(0.85098, 1, 1, 1)
+
+[node name="Label" type="Label" parent="."]
+offset_left = 28.0
+offset_top = 22.0
+offset_right = 204.0
+offset_bottom = 72.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "Main Scene"
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 74.0
+offset_top = 76.0
+offset_right = 114.0
+offset_bottom = 99.0
+theme_override_colors/font_color = Color(0.886275, 0, 0, 1)
+text = "\"MultiplayerAPI\" is set successfully"

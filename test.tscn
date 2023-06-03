@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://b7ld5xlt1e2nk"]
+
+[ext_resource type="Script" path="res://test.gd" id="1_kc6fq"]
+
+[node name="Test" type="Node"]
+script = ExtResource("1_kc6fq")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = 299.0
+offset_top = 162.0
+offset_right = 946.0
+offset_bottom = 509.0
+
+[node name="Label" type="Label" parent="."]
+offset_left = 371.0
+offset_top = 195.0
+offset_right = 534.0
+offset_bottom = 243.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "Test Secne"
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 392.0
+offset_top = 245.0
+offset_right = 735.0
+offset_bottom = 271.0
+theme_override_colors/font_color = Color(0.894118, 0, 0, 1)
+text = "\"MultiplayerAPI\" is set, but it doesn't change"
